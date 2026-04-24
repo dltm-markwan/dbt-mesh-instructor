@@ -1,0 +1,1 @@
+select * from {{ ref('tpch_mark','monthly_gross_revenue') }}
